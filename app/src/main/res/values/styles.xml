@@ -89,21 +89,21 @@
     <!-- =============================================================== -->
     <!-- Bulldogs styles -->
     <!-- =============================================================== -->
-    <style name="pg_background_wh">
+    <style name="pg_background_b">
         <item name="android:background">@drawable/maroon_white_gradient_background</item>
         <item name="android:paddingLeft">@dimen/activity_horizontal_padding</item>
         <item name="android:paddingRight">@dimen/activity_horizontal_padding</item>
     </style>
 
-    <style name="txt_subheader_wh">
-        <item name="android:textColor">#000</item>
+    <style name="txt_subheader_b">
+        <item name="android:textColor">@color/White</item>
         <item name="android:textSize">@dimen/text_subheader_text_size</item>
         <item name="android:shadowDy">1.0</item>
         <item name="android:shadowRadius">1</item>
         <item name="android:shadowColor">#000</item>
     </style>
 
-    <style name="txt_large_wh">
+    <style name="txt_large_b">
         <item name="android:textColor">@android:color/background_dark</item>
         <item name="android:textSize">@dimen/text_large_text_size</item>
         <item name="android:shadowDy">1.0</item>
@@ -113,12 +113,12 @@
         <item name="android:layout_marginTop">@dimen/text_large_margin_top</item>
     </style>
 
-    <style name="txt_regular_wh">
+    <style name="txt_regular_b">
         <item name="android:textColor">@android:color/background_dark</item>
         <item name="android:textSize">@dimen/text_regular_text_size</item>
     </style>
 
-    <style name="dark_background_wh">
+    <style name="dark_background_b">
         <item name="android:background">@android:drawable/dialog_holo_dark_frame</item>
         <item name="android:layout_marginTop">@dimen/card_margin_top</item>
         <item name="android:layout_marginBottom">@dimen/card_margin_top</item>
@@ -135,14 +135,13 @@
     </style>
 
     <style name="horizontal_line_b">
-        <item name="android:background">#00000000</item>
+        <item name="android:background">@color/White</item>
     </style>
 
-    <color name="actionbar_bg_b">#5A0505</color>
 
     <style name="action_bar_b" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@color/actionbar_bg_b</item>
-        <item name="background">#4B040000</item>
+        <item name="android:background">@color/Maroon</item>
+        <item name="background">@color/black</item>
     </style>
 
 </resources>

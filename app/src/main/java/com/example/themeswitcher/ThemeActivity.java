@@ -1,6 +1,7 @@
 package com.example.themeswitcher;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Spinner;
@@ -33,6 +34,7 @@ public class ThemeActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view,
                                        int position, long id) {
                 if (ThemeApplication.currentPosition != position) {
+                    Log.i("ThemeActivity", "this will be set to" + position);
                     Utils.changeToTheme(ThemeActivity.this, position);
                 }
                 ThemeApplication.currentPosition = position;
